@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ManagementSystemApplication<Management-System>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Project.tamil.Management_System.ManagementSystemApplication",
+            "projectName": "Management-System",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

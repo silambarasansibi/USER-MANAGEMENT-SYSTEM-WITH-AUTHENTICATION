@@ -1,0 +1,85 @@
+.admin-dashboard {
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Professional Background Image */
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://images.unsplash.com/photo-1600077072153-6f7f45f1c82b?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+  opacity: 0.08;
+  z-index: -1;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Cards */
+.professional-card {
+  border-radius: 0.75rem;
+  transition: all 0.3s;
+}
+
+.professional-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Card Headers - Professional Colors */
+.bg-professional-card { background-color: #2C3E50; color: #fff; }
+.bg-professional-warning { background-color: #34495E; color: #fff; }
+.bg-professional-secondary { background-color: #3A506B; color: #fff; }
+
+/* Buttons */
+.btn-professional-add { background-color: #1F618D; color: #fff; border: none; transition: transform 0.2s; }
+.btn-professional-add:hover { transform: scale(1.05); }
+
+.btn-professional-approve { background-color: #27AE60; color: #fff; border: none; transition: transform 0.2s; }
+.btn-professional-approve:hover { transform: scale(1.05); }
+
+.btn-professional-decline { background-color: #C0392B; color: #fff; border: none; transition: transform 0.2s; }
+.btn-professional-decline:hover { transform: scale(1.05); }
+
+/* Inputs */
+.professional-input {
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ced4da;
+  transition: all 0.3s;
+}
+
+.professional-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0,123,255,0.3);
+  border-color: #007bff;
+}
+
+/* Table */
+.professional-table th, .professional-table td {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.professional-table tbody tr:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+/* Alerts */
+.professional-alert {
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.85);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.professional-alert:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
